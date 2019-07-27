@@ -8,7 +8,6 @@ def mypath():
     with open("content.txt") as conn:
         for word in conn:
             print(word)
-            pass
 
     connec = Path("content.txt").read_text()
     print(connec)
